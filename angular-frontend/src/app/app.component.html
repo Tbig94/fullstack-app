@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <div class="navbar-nav">
+        <div class="nav-item">
+            <a routerLink="employees" routerLinkActive="active" class="nav-link">Employee List</a>
+        </div>
+        <div class="nav-item">
+            <a routerLink="create-employee" routerLinkActive="active" class="nav-link">Add Employee</a>
+        </div>
+    </div>
+</nav>
+
+<h1 class="text-center">{{ title }}</h1>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <span>All Rights Reserved 2020 @JavaGuides</span>
+    </div>
+</footer>
